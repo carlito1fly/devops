@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: app-dev
-        image: carlito93fly/development1
+        image: carlito93fly/development
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
