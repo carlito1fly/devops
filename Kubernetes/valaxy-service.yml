@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: app-dev
   labels:
-    app: devops-project
+    app: app-dev
 spec:
   selector:
-    app: devops-project
+    app: app-dev
   type: LoadBalancer
   ports:
     - port: 8080
